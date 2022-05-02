@@ -1,0 +1,48 @@
+mat-card {
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    text-align: center;
+         
+}
+
+mat-card-title {
+    display: block;
+    margin-bottom: 3%;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.div-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 70%;
+}
+
+.main_component {
+    height: 100vh;
+}
+
+.adat{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 1%;
+}
+
+p{
+    font-size: 2vh;
+    vertical-align: middle;
+    margin-bottom: 1%;
+
+}
+
+mat-icon {
+    margin-right: 1%;
+}

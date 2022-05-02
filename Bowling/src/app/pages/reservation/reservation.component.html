@@ -1,0 +1,48 @@
+<div class="div-card">
+    <mat-card class="resMatCard" fxLayout fxLayoutGap="20px">
+
+        <form [formGroup]="resForm" (ngSubmit)="addRes()">
+            <div class="idopont">
+                <mat-card-title class="cim">Időpontfoglalás</mat-card-title>
+
+
+                <mat-form-field>
+                    <input matInput [ngxMatDatetimePicker]="picker" [min]="minDate" [max]="maxDate"
+                        placeholder="Choose a date & time" formControlName="date">
+
+                    <mat-datepicker-toggle matSuffix [for]="$any(picker)"></mat-datepicker-toggle>
+
+                    <ngx-mat-datetime-picker #picker [disableMinute]="disableMinute" [defaultTime]="defaultTime">
+
+                    </ngx-mat-datetime-picker>
+
+
+                </mat-form-field>
+                <div class="gomb">
+                    <button mat-raised-button color="primary" type="submit">Foglalás</button>
+                </div>
+            </div>
+        </form>
+    </mat-card>
+
+</div>
+
+
+
+
+<!--<mat-form-field appearance="fill" class="example-form-field">
+    
+    <input matInput [matDatepicker]="datepicker" [min]="minDate" [max]="maxDate" [matDatepicker]="datepicker" placeholder="Válasz egy dátumot!" readonly>
+
+    <mat-datepicker-toggle matSuffix [for]="datepicker"></mat-datepicker-toggle>
+    <mat-datepicker #datepicker>
+      <mat-datepicker-actions>
+        <button mat-button matDatepickerCancel>Cancel</button>
+        <button mat-raised-button color="primary" matDatepickerApply>Apply</button>
+      </mat-datepicker-actions>
+    </mat-datepicker>
+
+  </mat-form-field>
+
+  <ngx-mat-timepicker >
+</ngx-mat-timepicker>-->

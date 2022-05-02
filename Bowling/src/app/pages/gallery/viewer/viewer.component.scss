@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galleryImage {
+    width: 50%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+}
+
+.table-header-even {
+    background-color: #7B1FA2;
+}
+
+.table-header-odd {
+    background-color: #8e699e;
+}
+
+
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
+.div-card {
+    padding: 50px;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+mat-card-content {
+    text-align: center;
+    
+}
+mat-card-content div {   
+    text-align: justify;
+}
+
+span{
+    padding: 2%;
+}
+
+mat-card-title{
+    margin-bottom: 2%;
+}
+
+.vmi{
+    margin-bottom: 2%;
+}
+
+.commentMatCard{
+    margin-top: 3%;
+    
+
+}
+.cim{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.tablazat{
+    margin-left: auto;
+    margin-right: auto;
+}

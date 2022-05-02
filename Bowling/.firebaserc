@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bowling-w": {
+      "hosting": {
+        "Bowling": [
+          "bowling-w"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bowling-w"
+  }
+}

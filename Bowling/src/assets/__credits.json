@@ -1,0 +1,29 @@
+[
+
+  {
+    "id" : "elso",
+    "name": "Pálya",
+    "info": "Számos pályát biztosítunk a játszani kívánó vendégeiknek, ami a pálya felett található elkápráztató dekorációhoz hasonlóan neon színekben pompázik."
+    
+  },
+  {
+    "id" : "masodik",
+    "name": "Várakozó",
+    "info": "Ha éppen nem te vagy a soros a játékban akkor a kényelmes fotelinkbe elterülve élvezheted a játéktársaid gurításait."
+  },
+   {
+    "id" : "harmadik",
+    "name": "Fotó fal",
+    "info": "Meg szeretnéd örökíteni ezt a csodás napot, de unalmas lenne a kép a bowling pályával a háttérben? Akkor se kell pánikba esni. Ezt a csodás neon falat pont emiatt helyeztük el. Garantáltan minden ismerősöd lenyűgöződ az itt készült képekkel."
+  },
+  {
+    "id" : "negyedik",
+    "name": "Bár",
+    "info": "Mi a helyedbe a bárunkba található jobbnál jobb koktélokkal tennénk teljessé a bowling játszmát. És mint ahogy láthatod a mi italainknak nem csak az ízük isteni, de még a látványuk igazán különleges."
+  },
+  {
+    "id" : "otodik",
+    "name": "Kanapék",
+    "info": "Az ínycsiklandó koktélok mellett kényelmes kanapékkal és jó zenékkel várjuk azokat a vendégeket is akik nem feltételül magáért a bowling játék élményért néznek be hozzánk."
+  }
+]
